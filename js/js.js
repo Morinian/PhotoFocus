@@ -2,11 +2,14 @@
 
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
+    let menuMobileheader = document.querySelector('header');
     if (menuMobile.classList.contains('open')) {
+        menuMobileheader.classList.remove("fund");
         menuMobile.classList.remove('open');
         document.querySelector('.icon').src = "imgs/menu_.svg";
     } else {
         menuMobile.classList.add('open');
+        menuMobileheader.classList.add("fund");
         document.querySelector('.icon').src = "imgs/close_.svg";
     }
 }
