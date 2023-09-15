@@ -88,7 +88,15 @@ header.scrolled{
 #teste img{
     width: 100%;
 }
-@media screen and (max-width: 730px) {
+
+/* telas pequenas, laptops */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
     .nav-bar {
         padding-right: 30px ;
     }
@@ -128,4 +136,10 @@ header.scrolled{
     .open {
         display: block;
     }
+    
+}
+
+/*dispositivos móveis*/
+@media screen and (max-width: 480px) {
+    
 }

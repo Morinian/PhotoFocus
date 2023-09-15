@@ -91,49 +91,6 @@ header.scrolled{
 #teste img{
     width: 100%;
 }
-@media screen and (max-width: 730px) {
-    .nav-bar {
-        padding-right: 30px ;
-    }
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-
-        background-color: #141414;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
-    .open {
-        display: block;
-    }
-}
-
-
 .container{
     position: relative;
     width: 100%;
@@ -239,4 +196,59 @@ header.scrolled{
     transition: 0.5s;
 }.buttons button:hover{
     background-color: #bac383;
+}
+
+/* telas pequenas, laptops */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        padding-right: 30px ;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+
+        background-color: #141414;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+    
+}
+
+/*dispositivos móveis*/
+@media screen and (max-width: 480px) {
+    
 }
