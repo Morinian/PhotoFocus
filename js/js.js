@@ -41,4 +41,28 @@ document.getElementById('prev').onclick = function(){
     let lists = document.querySelectorAll('.item');
     document.getElementById('slide').prepend(lists[lists.length - 1]);
 }
-  
+
+function mudaCor1(){
+    var body = document.body;
+    body.style.backgroundColor = '#072048';
+}
+function mudaCor2(){
+    var body = document.body;
+    body.style.backgroundColor = '#211813';
+}
+function mudaCor3(){
+    var body = document.body;
+    body.style.backgroundColor = '#756858';
+}
+function mudaCor4(){
+    var body = document.body;
+    body.style.backgroundColor = '#febe2c';
+}
+function mudaCor5(){
+    var body = document.body;
+    body.style.backgroundColor = '#a7a89f';
+}
+function mudaCor6(){
+    var body = document.body;
+    body.style.backgroundColor = '#643437';
+}
