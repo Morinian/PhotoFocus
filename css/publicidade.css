@@ -8,9 +8,10 @@
 header {
     width: 100%;
     position: fixed;
-
+    
     height: 200px;
     transition: 1s all;
+    z-index: 99999;
 }
 header.scrolled{
     height: 80px;
@@ -76,6 +77,292 @@ header.scrolled{
     text-decoration: none;
     color: #fff;
 }
+
+main{
+    position: relative;
+    background-color: rgb(168, 63, 63);
+    height: 2000px;
+    width: 100%;
+}
+
+.imgback{
+    height: 750px;
+    width: 100%;
+    background-color: darkkhaki;
+    background-image: url(../imgs/principal/slide3.jpeg);
+}
+
+.Threeimagens{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 4;
+    top: 600px;
+       
+}
+
+.caixinha1, .caixinha2, .caixinha3{
+    width: 30%;
+    height: 85%;
+    background-color: white;
+}
+
+.jorge{
+    width: 100%;
+    height: 1300px;
+    background-color: #141414;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.produto{
+    width: 60%;
+    height: 750px;
+    background-color: darkgrey;
+    margin-right: 160px;
+   margin-top: 360px;
+    border-radius: 25px;
+    
+}
+
+.maome{
+    height: 650px;
+    width: 38%;
+    /*border: blue solid 2px;*/
+    margin-top: 380px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.titulopubli1{
+    color: #fff;
+    font-size: 50px;
+    margin-left: 100px;
+    
+        
+}
+
+.textopubli1{
+    background-color: blueviolet;
+    height: 300px;
+    width: 100%;
+    margin-left: 100px;
+    z-index: 1;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.titulopubli2{
+    color: #fff;
+    font-size: 50px;
+    margin-left: 100px;
+        
+}
+
+.textopubli2{
+    background-color: blueviolet;
+    height: 300px;
+    width: 100%;
+    margin-left: 100px;
+    z-index: 1;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.maisuma{
+    width: 100%;
+    height: 1000px;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagem1{
+    width: 30%;
+    height: 45vh;
+    background-color: indianred;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.textoimagem1{
+    width: 50%;
+    height: 45vh;
+    background-color: chartreuse;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.textoimagem2{
+    width: 50%;
+    height: 45vh;
+    background-color: rgb(21, 158, 179);
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.imagem2{
+    width: 30%;
+    height: 45vh;
+    background-color: rgb(233, 6, 6);
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
+.imagem3{
+    width: 30%;
+    height: 45vh;
+    background-color: rgb(34, 15, 122);
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.textoimagem3{
+    width: 50%;
+    height: 45vh;
+    background-color: rgb(206, 246, 6);
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.camada5{
+    width: 100%;
+    height: 180vh;
+    background-color: burlywood;
+    display: flex;
+    
+}
+
+.quintaimagem{
+    
+    width: 45%;
+    height: 70vh;
+    background-color: blue;
+    margin-top: 250px;
+    margin-left: 150px;
+    z-index: 2;
+}
+
+.caixa1{
+    
+    width: 30%;
+    height: 70vh;
+    background-color: aqua;
+    margin-top: 250px;
+    z-index: 2;
+}
+
+.imagem4{
+       width: 100%;
+    height: 40vh;
+    background-color: rgb(255, 0, 217);
+    z-index: 2;
+}
+
+.texto{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 55px;
+    margin-top: 10vh;
+}
+
+.tituloprof{
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    height: 75px;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+   margin-top: 825px;
+   margin-left: 440px;
+}
+
+.profissionais{
+    position: absolute;
+    height: 600px;
+    width: 85%;
+    background-color: #141433a7;
+    z-index: 1;
+    top: 3900px;
+    margin-left: 95px;
+    border-radius: 40px;
+    display: flex;
+    
+}
+
+.profissional1 {
+    width: 25%;
+    height: 300px;
+    background-color: #FFF;
+    margin-top: 100px;
+    margin-left: 65px;
+    border-radius:0 65px 0 65px ;
+    float: left;
+}
+
+.profissional2{
+    width: 25%;
+    height: 300px;
+    background-color: #FFF;
+    margin-top: 100px;
+    margin-left: 65px;
+    border-radius:0 65px 0 65px ;
+    float: left;
+}
+
+.profissional3{
+    width: 25%;
+    height: 300px;
+    background-color: #FFF;
+    margin-top: 100px;
+    margin-left: 65px;
+    border-radius:0 65px 0 65px ;
+    float: left;
+}
+
+.botao{
+    position: absolute;
+    background-color: #FFF;
+    width: 15%;
+    height: 75px;
+    margin-top: 450px;
+    margin-left: 460px;
+    border-radius: 30px 0 30px 0;
+    border: 0;
+    clear: left;
+    z-index: 1;
+}
+
+.botao a{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.imagemfim{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imgs/principal/slide3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 .mobile-menu-icon {
     display: none;
