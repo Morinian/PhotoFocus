@@ -6,6 +6,7 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #181818;
 }
 
 
@@ -497,7 +498,59 @@ label a{
 }
 
 
+/*Opções*/
+#pont{
+    width: 100%;
+    height: auto;
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    flex-wrap: wrap;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.mais{
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+}
+#p1, #p2{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #131433;
+    border-radius: 20px;
+    height: auto;
+    width: 450px;
+
+    margin-top: 100px;
+}
+#p1 svg, #p2 svg{
+    position: absolute;
+    margin-bottom: 200px;
+    color: #fff;
+}
+#tag2, #tag1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pont h1{
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 80px;
+}
+#pont p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
 
 /*Footer*/
 footer{
