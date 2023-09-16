@@ -254,7 +254,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    flex-wrap: wrap;
+    padding-top: 50px;
 }
 
 .quintaimagem{
@@ -263,10 +264,11 @@ main{
     height: 70vh;
     background-color: blue;
     
-
+    margin-top: 10px;
 }
 
 .caixa1{
+    margin-top: 10px;
     width: 550px;
     height: 70vh;
     background-color: aqua;
@@ -275,16 +277,19 @@ main{
 .imagem4{
 
     width: 100%;
-    height: 40vh;
+    height: 50%;
     background-color: rgb(255, 0, 217);
 
 }
 
 .texto{
+    height: 50%;
     color: #fff;
     font-size: 25px;
-    margin-left: 55px;
-    margin-top: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;  
 }
 
 .tituloprof{
