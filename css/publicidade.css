@@ -81,81 +81,90 @@ header.scrolled{
 main{
     position: relative;
     background-color: rgb(168, 63, 63);
-    height: 2000px;
+    height: autor;
     width: 100%;
 }
 
 .imgback{
     height: 750px;
     width: 100%;
-    background-color: darkkhaki;
     background-image: url(../imgs/principal/slide3.jpeg);
+    background-size: cover;
+    background-position: 80%;
 }
 
 .Threeimagens{
     width: 100%;
-    height: 300px;
+    height: auto;
+
     position: absolute;
+    z-index: 4;
+
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    z-index: 4;
+
     top: 600px;
        
 }
 
 .caixinha1, .caixinha2, .caixinha3{
-    width: 30%;
-    height: 85%;
+    width: 300px;
+    height: 200px;
     background-color: white;
+
+    margin-top: 20px;
 }
+
+
+/*Texto Imagem*/
 
 .jorge{
     width: 100%;
-    height: 1300px;
+    height: auto;
     background-color: #141414;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+
+    margin-top: 100px;
+    padding: 50px 0px 50px 0px;
+}
 .produto{
-    width: 60%;
-    height: 750px;
+    width: 660px;
+    height: 700px;
     background-color: darkgrey;
-    margin-right: 160px;
-   margin-top: 360px;
     border-radius: 25px;
-    
+
+    margin-right: 50px;
 }
 
 .maome{
     height: 650px;
-    width: 38%;
+    width: 500px;
     /*border: blue solid 2px;*/
-    margin-top: 380px;
-    margin-left: 140px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    position: absolute;
+    left: 150px;
     
 }
 
 .titulopubli1{
     color: #fff;
-    font-size: 50px;
-    margin-left: 100px;
-    
-        
+    font-size: 50px;     
 }
 
 .textopubli1{
     background-color: blueviolet;
     height: 300px;
     width: 100%;
-    margin-left: 100px;
     z-index: 1;
     border-radius: 30px;
     text-align: center;
@@ -164,16 +173,13 @@ main{
 
 .titulopubli2{
     color: #fff;
-    font-size: 50px;
-    margin-left: 100px;
-        
+    font-size: 50px;       
 }
 
 .textopubli2{
     background-color: blueviolet;
     height: 300px;
     width: 100%;
-    margin-left: 100px;
     z-index: 1;
     border-radius: 30px;
     text-align: center;
@@ -182,93 +188,96 @@ main{
 
 .maisuma{
     width: 100%;
-    height: 1000px;
+    height: auto;
     background-color: lightsalmon;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+    align-items: center;
+    justify-content: center;
 
+    gap: 20px;
+   
+}
+.oi{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
 .imagem1{
-    width: 30%;
+    width: 320px;
     height: 45vh;
     background-color: indianred;
-    margin-top: 50px;
-    margin-left: 65px;
 }
 
 .textoimagem1{
-    width: 50%;
+    width: 550px;
     height: 45vh;
     background-color: chartreuse;
-    margin-top: 50px;
-    margin-left: 75px;
 }
 
 .textoimagem2{
-    width: 50%;
+    width: 550px;
     height: 45vh;
     background-color: rgb(21, 158, 179);
-    margin-top: 50px;
-    margin-left: 65px;
 }
 
 .imagem2{
-    width: 30%;
+    width: 320px;
     height: 45vh;
     background-color: rgb(233, 6, 6);
-    margin-top: 50px;
-    margin-left: 85px;
 }
 
 .imagem3{
-    width: 30%;
+    width: 320px;
     height: 45vh;
-    background-color: rgb(34, 15, 122);
-    margin-top: 50px;
-    margin-left: 65px;
+    background-color: rgb(34, 15, 122); 
 }
 
 .textoimagem3{
-    width: 50%;
+    width: 550px;
     height: 45vh;
     background-color: rgb(206, 246, 6);
-    margin-top: 50px;
-    margin-left: 75px;
 }
 
 .camada5{
     width: 100%;
-    height: 180vh;
+    height: auto;
     background-color: burlywood;
+
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
 }
 
 .quintaimagem{
     
-    width: 45%;
+    width:  450px;
     height: 70vh;
     background-color: blue;
-    margin-top: 250px;
-    margin-left: 150px;
-    z-index: 2;
+    
+
 }
 
 .caixa1{
-    
-    width: 30%;
+    width: 550px;
     height: 70vh;
     background-color: aqua;
-    margin-top: 250px;
-    z-index: 2;
 }
 
 .imagem4{
-       width: 100%;
+
+    width: 100%;
     height: 40vh;
     background-color: rgb(255, 0, 217);
-    z-index: 2;
+
 }
 
 .texto{
@@ -378,13 +387,33 @@ main{
 
 
 /* telas pequenas, laptops */
+@media screen and (max-width:1139px){
+    .maome{
+        left: 30px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
-  
+    .textoimagem1,.textoimagem2,.textoimagem3{
+        width: 100%;
+    }
+    #revert{
+        flex-direction: column-reverse;   
+    }
+  .jorge{
+    margin-top: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+  .maome{
+    position: relative;
+    left: 0px;
+}
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+
     .nav-bar {
         padding-right: 30px ;
     }

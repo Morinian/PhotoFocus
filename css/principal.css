@@ -270,7 +270,8 @@ header.scrolled{
 }
  #item-1 {
  
-    background-color: #9f8b98; 
+    background-image: url(../imgs/Homepage/blocoDireito.jpg);
+    background-size: cover;
     grid-row-start: 2;
     grid-column-start: 2;
  
