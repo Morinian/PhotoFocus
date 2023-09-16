@@ -837,9 +837,14 @@ img{
 @media screen and (max-width: 480px) {
     #carts1,#carts2{
         width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     #cart1,#cart2,#cart3,#cart4{
-        width: 100%;
+        width: 80%;
     }
     .item .content, .item .name, .item .des, .item button{
        display: none;
