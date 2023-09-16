@@ -832,6 +832,10 @@ img{
        display: none;
     }
 
+    #mud{
+        display: block;
+        margin-top: 100px;
+    }
 
    /*Grid*/
     #grade{
