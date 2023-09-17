@@ -97,7 +97,7 @@ main{
 .imgback{
     height: 750px;
     width: 100%;
-    background-image: url(../imgs/principal/slide3.jpeg);
+    background-image: url(../imgs/Retrato/imagem_inicial.jpg);
     background-size: cover;
     background-position: 80%;
 }

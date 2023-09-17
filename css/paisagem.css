@@ -97,7 +97,7 @@ main{
 .imgback{
     height: 750px;
     width: 100%;
-    background-image: url(../imgs/principal/slide3.jpeg);
+    background-image: url(../imgs/Paisagem/foto_topo.jpg);
     background-size: cover;
     background-position: 80%;
 }
@@ -118,7 +118,6 @@ main{
     top: 600px;
        
 }
-
 .caixinha1, .caixinha2, .caixinha3{
     width: 300px;
     height: 200px;
@@ -126,7 +125,18 @@ main{
 
     margin-top: 20px;
 }
-
+.caixinha1{
+    background-image: url(../imgs/Paisagem/demonstrativo1.jpg);
+    background-size: cover;
+}
+.caixinha2{
+    background-image: url(../imgs/Paisagem/demonstrativo2.jpg);
+    background-size: cover;
+}
+.caixinha3{
+    background-image: url(../imgs/Paisagem/demonstrativo3.jpg);
+    background-size: cover;
+}
 
 /*Texto Imagem*/
 
@@ -143,9 +153,11 @@ main{
     padding: 50px 0px 50px 0px;
 }
 .produto{
+    background-image:url(../imgs/Paisagem/fundo_centro.jpg) ;
+    background-size: cover;
+
     width: 660px;
     height: 700px;
-    background-color: darkgrey;
     border-radius: 25px;
 
     margin-right: 50px; 
@@ -228,44 +240,58 @@ main{
     gap: 20px;
 }
 .imagem1{
+    background-image: url(../imgs/Paisagem/exemplo_centro1.jpg);
+    background-size: cover;
+
     width: 320px;
     height: 45vh;
-    background-color: white;
 }
 
 .textoimagem1{
     width: 550px;
     height: 45vh;
 
+    text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.textoimagem1 h3,.textoimagem2   h3,.textoimagem3 h3{
+.textoimagem1 p,.textoimagem2   p,.textoimagem3 p{
     color: #fff;
+    font-size: 20px;
 }
 .textoimagem2{
+    text-align: justify;
     width: 550px;
     height: 45vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .imagem2{
     width: 320px;
     height: 45vh;
-    background-color: white;
+
+    background-image: url(../imgs/Paisagem/exemplo_centro2.jpg);
+    background-size: cover;
 }
 
 .imagem3{
     width: 320px;
     height: 45vh;
-    background-color: white; 
+  
+    background-image: url(../imgs/Paisagem/exemplo_centro3.jpg);
+    background-size: cover;
 }
 .profissionais img{
     width: 200px;
+}
+#imgpeq img{
+    width: 270px;
 }
 .textoimagem3{
     width: 550px;
@@ -274,12 +300,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
 .camada5{
     width: 100%;
     height: auto;
-    background-color: #141414;
+
 
     display: flex;
     justify-content: center;
@@ -290,7 +317,9 @@ main{
 }
 
 .quintaimagem{
-    
+    background-image: url(../imgs/Paisagem/imagem_retrato.jpg);
+    background-size: cover;
+
     width:  450px;
     height: 70vh;
     background-color: white;
@@ -302,10 +331,12 @@ main{
     margin-top: 10px;
     width: 550px;
     height: 70vh;
-    background-color: darkgray;
 }
 
 .imagem4{
+    background-image: url(../imgs/Paisagem/imagem_final.jpg );
+    background-position: 80%;
+    background-size: cover;
 
     width: 100%;
     height: 50%;
@@ -416,7 +447,7 @@ main{
     width: 100%;
     height: 300px;
     background-position: 80%;
-    background-image: url(../imgs/principal/slide3.jpeg);
+    background-image: url(../imgs/Paisagem/imagem_retrato.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -585,7 +616,7 @@ img{
     }
     
     .textoimagem1,.textoimagem2,.textoimagem3{
-        width: 100%;
+        width: 80%;
     }
     #revert{
         flex-direction: column-reverse;   
