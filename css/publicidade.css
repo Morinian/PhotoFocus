@@ -600,7 +600,7 @@ img{
     }
     
     .textoimagem1,.textoimagem2,.textoimagem3{
-        width: 8%;
+        width: 80%;
     }
     #revert{
         flex-direction: column-reverse;   
