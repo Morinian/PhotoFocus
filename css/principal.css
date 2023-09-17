@@ -6,6 +6,7 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #141414;
 }
 
 
@@ -246,8 +247,8 @@ header.scrolled{
  }
    
  #item-0 {
- 
-    background-color: #38d7ff;
+
+    background-color: #181818;
     background-size: cover;
     grid-row-start: 1;
     grid-column-start: 1;
@@ -266,17 +267,19 @@ header.scrolled{
  #item-0 p{
     margin-top: 20px;
     text-align: justify;
-
+    color: #FFFF;
     font-size: 20px;
  }
 #item-0 h1{
     font-size: 40px;
     font-weight: 300;
+    color: #FFFF;
 }
- #item-1 {
- 
-    background-image: url(../imgs/Homepage/Centro.jpg);
+
+ .item-1 {
     
+    background-image: url(../imgs/Homepage/Centro.jpg);
+
     background-size: cover;
     grid-row-start: 2;
     grid-column-start: 2;
@@ -285,7 +288,7 @@ header.scrolled{
     grid-column-end: 4;
     
  }
- #item-2 {
+ .item-2 {
  
     background-image: url(../imgs/Homepage/centro2.jpg);
     background-size: cover;
@@ -296,7 +299,7 @@ header.scrolled{
     grid-column-end: 2;
     
  }
- #item-3 {
+ .item-3 {
  
     background-image: url(../imgs/Homepage/bloco_inferior.jpg);
     background-size: cover;
@@ -308,7 +311,7 @@ header.scrolled{
     grid-column-end: 4;
     
  }
- #item-4 {
+ .item-4 {
  
     background-image: url(../imgs/Homepage/blocoDireito.jpg);
     background-size: cover;
@@ -321,11 +324,11 @@ header.scrolled{
     
  }
  #item-5 {
- 
-    background-color: #75cb96; 
+
     grid-row-start: 3;
     grid-column-start: 4;
  
+    background-color: #181818;
     grid-row-end: 4;
     grid-column-end: 6;
 
@@ -337,10 +340,11 @@ header.scrolled{
     padding: 30px;
     
  }
- #item-5{
+ #item-5 p{
     font-size: 20px;
+    color: #FFFF;
  }
- #item-6 {
+ .item-6 {
  
     background-image: url(../imgs/Homepage/bloco_esquerdo.jpg);
     background-position: 50%;
@@ -392,7 +396,44 @@ header.scrolled{
 }
 
 
+/*VISAO*/
+#visao{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+}
+#vis1,#vis2{
+    width: 400px;
+    background-color: #131433;
+    color: #fff;
+    border-radius:  20px ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 200px;
+}
+#vis1 h2,#vis2 h2{
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 20px;
+}
+#vis1 p,#vis2 p{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify ;
+}
+#visao svg{
+    position: absolute;
+    margin-bottom: 350px;
+}
 /*CARTS*/
 
 #cart{
@@ -542,6 +583,8 @@ i{
 }
 .submit:hover{
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    background-color: #181818;
+    color: #FFFF;
 }
 .bottom{
     display: flex;
@@ -678,7 +721,6 @@ img{
        
      #item-0 {
      
-        background-color: #7BB9F5; 
         grid-row-start: 1;
         grid-column-start: 1;
      
@@ -686,9 +728,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-1 {
+     .item-1 {
      
-        background-color: #975599; 
         grid-row-start: 2;
         grid-column-start: 1;
      
@@ -696,9 +737,8 @@ img{
         grid-column-end: 2;
         
      }
-     #item-2 {
+     .item-2 {
      
-        background-color: #8BF97C; 
         grid-row-start: 2;
         grid-column-start: 2;
      
@@ -706,9 +746,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-3 {
-     
-        background-color: #ED6DAE; 
+     .item-3 {
+    
         grid-row-start: 3;
         grid-column-start: 1;
      
@@ -716,9 +755,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-4 {
+     .item-4 {
      
-        background-color: #E75E6B; 
         grid-row-start: 4;
         grid-column-start: 1;
      
@@ -728,7 +766,6 @@ img{
      }
      #item-5 {
      
-        background-color: #5FDCA5; 
         grid-row-start: 6;
         grid-column-start: 1;
      
@@ -736,9 +773,8 @@ img{
         grid-column-end: 3;
         
      }
-     #item-6 {
+     .item-6 {
      
-        background-color: #97DD59; 
         grid-row-start: 6;
         grid-column-start: 3;
      
@@ -913,7 +949,6 @@ img{
        
      #item-0 {
      
-        background-color: #7BB9F5; 
         grid-row-start: 1;
         grid-column-start: 1;
      
@@ -921,9 +956,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-1 {
-     
-        background-color: #975599; 
+     .item-1 {
+
         grid-row-start: 3;
         grid-column-start: 1;
      
@@ -931,9 +965,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-2 {
+     .item-2 {
      
-        background-color: #8BF97C; 
         grid-row-start: 2;
         grid-column-start: 1;
      
@@ -941,9 +974,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-3 {
-     
-        background-color: #ED6DAE; 
+     .item-3 {
+
         grid-row-start: 4;
         grid-column-start: 1;
      
@@ -951,9 +983,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-4 {
+     .item-4 {
      
-        background-color: #E75E6B; 
         grid-row-start: 5;
         grid-column-start: 1;
      
@@ -962,8 +993,7 @@ img{
         
      }
      #item-5 {
-     
-        background-color: #5FDCA5; 
+      
         grid-row-start: 6;
         grid-column-start: 1;
      
@@ -971,9 +1001,8 @@ img{
         grid-column-end: 4;
         
      }
-     #item-6 {
+     .item-6 {
      
-        background-color: #97DD59; 
         grid-row-start: 7;
         grid-column-start: 1;
      
