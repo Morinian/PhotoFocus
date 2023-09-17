@@ -275,7 +275,8 @@ header.scrolled{
 }
  #item-1 {
  
-    background-image: url(../imgs/Homepage/blocoDireito.jpg);
+    background-image: url(../imgs/Homepage/Centro.jpg);
+    
     background-size: cover;
     grid-row-start: 2;
     grid-column-start: 2;
@@ -286,7 +287,8 @@ header.scrolled{
  }
  #item-2 {
  
-    background-color: #a5fbeb; 
+    background-image: url(../imgs/Homepage/centro2.jpg);
+    background-size: cover;
     grid-row-start: 2;
     grid-column-start: 1;
  
@@ -296,7 +298,9 @@ header.scrolled{
  }
  #item-3 {
  
-    background-color: #b5baa9; 
+    background-image: url(../imgs/Homepage/bloco_inferior.jpg);
+    background-size: cover;
+    background-position: 50%;
     grid-row-start: 3;
     grid-column-start: 1;
  
@@ -306,7 +310,9 @@ header.scrolled{
  }
  #item-4 {
  
-    background-color: #b8a5d6; 
+    background-image: url(../imgs/Homepage/blocoDireito.jpg);
+    background-size: cover;
+ 
     grid-row-start: 1;
     grid-column-start: 4;
  
@@ -336,7 +342,9 @@ header.scrolled{
  }
  #item-6 {
  
-    background-color: #9adc79; 
+    background-image: url(../imgs/Homepage/bloco_esquerdo.jpg);
+    background-position: 50%;
+    background-size: cover;
     grid-row-start: 3;
     grid-column-start: 6;
  
@@ -354,7 +362,8 @@ header.scrolled{
     align-items: center;
     justify-content: center;
 
-    background-color: #ad1c1c;
+    background-image: url(../imgs/Homepage/sobre_nós.jpg);
+    background-size: cover;
 }
 #quadrado{
     background-color: #131433e1;
@@ -409,6 +418,26 @@ header.scrolled{
 
     border-radius: 30px;
 }
+#cart1{
+    background-image: url(../imgs/Homepage/veja+1.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#cart2{
+    background-image: url(../imgs/Homepage/veja+2.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#cart3{
+    background-image: url(../imgs/Homepage/veja+3.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#cart4{
+    background-image: url(../imgs/Homepage/veja+4.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
 #cart a{
     display: flex;
     justify-content: center;
@@ -421,10 +450,22 @@ header.scrolled{
     font-size: 25px;
 
     background-color: #131433e1;
+    text-decoration: none;
     color: #fff;
     border-radius: 30px 0px 30px 0px;
 }
-
+#cart1 a:hover{
+    background-color: #131433;
+}
+#cart2 a:hover{
+    background-color: #131433;
+}
+#cart3 a:hover{
+    background-color: #131433;
+}
+#cart4 a:hover{
+    background-color: #131433;
+}
 
 #imgforms{
     background-color: #38d7ff;
@@ -438,8 +479,8 @@ header.scrolled{
     align-items: center;
     min-height: 90vh;
 
-    background-color: #7e1818;
-    
+    background-image: url(../imgs/Homepage/forms.jpg);
+    background-size: cover;
 }
 .container1{
     width: 400px;
