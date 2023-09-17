@@ -7,13 +7,14 @@
 body{
     background-color: #141414;
 }
+/*NAV BAR*/
 header {
     width: 100%;
     position: fixed;
-    
+
     height: 200px;
-    transition: 1s all;
-    z-index: 99999;
+    transition: 0.5s all;
+    z-index: 10;
 }
 header.scrolled{
     height: 80px;
@@ -42,7 +43,7 @@ header.scrolled{
     background-image: url(../imgs/logos/logobranco.png);
     background-size:cover ;
 }
-.logo.scrolled{
+.logo.scrolled{ /*Função js para trocar cor logo etc*/
     width: 150px;
     height: 50px;
 
@@ -50,8 +51,6 @@ header.scrolled{
     background-image: url(../imgs/logos/logoLinhaBranco.png);
     background-size:cover ;
 }
-
-
 .logo h1 {
     color: #fff;
 }
@@ -79,6 +78,15 @@ header.scrolled{
     text-decoration: none;
     color: #fff;
 }
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 
 main{
     position: relative;
@@ -531,6 +539,51 @@ img{
 }
 
 @media screen and (max-width: 1024px) {
+    /*mENU*/
+    header.fund{
+        background-color: #141414;
+        transition: 0s all;
+    }
+    .nav-bar {
+        padding-right: 30px ;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+
+        background-color: #141414;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+    
     .textoimagem1,.textoimagem2,.textoimagem3{
         width: 100%;
     }
@@ -570,6 +623,8 @@ img{
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+
+    
 /*FOOTER*/
 #caixa3{
     flex-direction: column;
@@ -629,7 +684,21 @@ img{
 
 /*dispositivos móveis*/
 @media screen and (max-width: 480px) {
-    
+    .profissional1,.profissional2,.profissional3 {
+        width: 220px;
+    }
+
+    .imagem2{
+        width: 100%;
+    }
+    .tituloprof{
+        width: 300px;
+        font-size: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .jorge{
         display: flex;
         justify-content: center;

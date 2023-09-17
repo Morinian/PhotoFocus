@@ -4,13 +4,17 @@
     margin: 0;
     font-family: 'Sansation', sans-serif;
 }
-
+body{
+    background-color: #141414;
+}
+/*NAV BAR*/
 header {
     width: 100%;
     position: fixed;
 
     height: 200px;
-    transition: 1s all;
+    transition: 0.5s all;
+    z-index: 10;
 }
 header.scrolled{
     height: 80px;
@@ -39,7 +43,7 @@ header.scrolled{
     background-image: url(../imgs/logos/logobranco.png);
     background-size:cover ;
 }
-.logo.scrolled{
+.logo.scrolled{ /*Função js para trocar cor logo etc*/
     width: 150px;
     height: 50px;
 
@@ -47,8 +51,6 @@ header.scrolled{
     background-image: url(../imgs/logos/logoLinhaBranco.png);
     background-size:cover ;
 }
-
-
 .logo h1 {
     color: #fff;
 }
@@ -85,19 +87,559 @@ header.scrolled{
     display: none;
 }
 
+
+main{
+    position: relative;
+    height: autor;
+    width: 100%;
+}
+
+.imgback{
+    height: 750px;
+    width: 100%;
+    background-image: url(../imgs/principal/slide3.jpeg);
+    background-size: cover;
+    background-position: 80%;
+}
+
+.Threeimagens{
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    z-index: 4;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    top: 600px;
+       
+}
+
+.caixinha1, .caixinha2, .caixinha3{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+
+    margin-top: 20px;
+}
+
+
+/*Texto Imagem*/
+
+.jorge{
+    width: 100%;
+    height: auto;
+    background-color: #141414;
+
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+
+    margin-top: 100px;
+    padding: 50px 0px 50px 0px;
+}
+.produto{
+    width: 660px;
+    height: 700px;
+    background-color: darkgrey;
+    border-radius: 25px;
+
+    margin-right: 50px; 
+}
+
+.maome{
+    height: 650px;
+    width: 500px;
+    /*border: blue solid 2px;*/
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    left: 150px;
+    
+}
+
+.titulopubli1{
+    color: #fff;
+    font-size: 50px;     
+}
+
+.textopubli1{
+    background-color: #131433;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulopubli2{
+    color: #fff;
+    font-size: 50px;       
+}
+
+.textopubli2{
+    background-color: #131433;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.maisuma{
+    width: 100%;
+    height: auto;
+    background-color: #1b1b1b;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+   
+}
+.oi{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+.imagem1{
+    width: 320px;
+    height: 45vh;
+    background-color: white;
+}
+
+.textoimagem1{
+    width: 550px;
+    height: 45vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textoimagem1 h3,.textoimagem2   h3,.textoimagem3 h3{
+    color: #fff;
+}
+.textoimagem2{
+    width: 550px;
+    height: 45vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem2{
+    width: 320px;
+    height: 45vh;
+    background-color: white;
+}
+
+.imagem3{
+    width: 320px;
+    height: 45vh;
+    background-color: white; 
+}
+.profissionais img{
+    width: 200px;
+}
+.textoimagem3{
+    width: 550px;
+    height: 45vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camada5{
+    width: 100%;
+    height: auto;
+    background-color: #141414;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quintaimagem{
+    
+    width:  450px;
+    height: 70vh;
+    background-color: white;
+    
+    margin-top: 10px;
+}
+
+.caixa1{
+    margin-top: 10px;
+    width: 550px;
+    height: 70vh;
+    background-color: darkgray;
+}
+
+.imagem4{
+
+    width: 100%;
+    height: 50%;
+    background-color: white;
+
+}
+
+.texto{
+    height: 50%;
+    color: #fff;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;  
+}
+
+.tituloprof{
+    position: absolute;
+    z-index: 3;
+    width: 350px;
+    height: 75px;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.profissionais{
+    height: auto;
+    width: 85%;
+    background-color: #141433a7;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#ladoalado{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#imgs{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    background-color: #ffffff00;
+}
+.titulo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.profissional1,.profissional2,.profissional3 {
+    width: 250px;
+    height: 300px;
+    background-color: #FFF;
+    border-radius:0 65px 0 65px ;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-bottom: 100px;
+    gap: 10px;
+}
+.botao{
+    position: relative;
+    background-color: #FFF;
+    width: 200px;
+    height: 75px;
+    border-radius: 30px 0 30px 0;
+    border: 0;
+
+    margin-bottom:30px ;
+}
+
+.botao a{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.imagemfim{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-position: 80%;
+    background-image: url(../imgs/principal/slide3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 #teste img{
     width: 100%;
 }
 
 
+/*Footer*/
+footer{
+    position: relative;
+    width: 100%;
+    background-color: rgba(30,30,30,255);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caixa{
+    background-color: #181818;
+    color: #ffffff;
+    height: 100%;
+    width: 60%;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa2{
+    color: #fff;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(17,17,17,255);
+}
+
+#oi,#oi2{
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+#oi a,#oi2 a{
+    color: #fff;
+    text-decoration: none;
+
+
+}
+.footer-list li {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+h1{
+    font-weight: 300;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.caixa p{
+    align-items: center;
+    justify-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    margin: 0px 60px 0px 60px;
+}
+#footer_copyrighp p{
+    color: #fff;
+}
+.footer-list{
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+}
+
+#footer_copyrighp{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30,30,30,255);
+   
+}
+img{
+    margin-left: 15px;
+}
+#caixa3{
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+}
 /* telas pequenas, laptops */
+@media screen and (max-width:1139px){
+    .maome{
+        left: 30px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
-  
+    /*mENU*/
+    header.fund{
+        background-color: #141414;
+        transition: 0s all;
+    }
+    .nav-bar {
+        padding-right: 30px ;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+
+        background-color: #141414;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+    
+    .textoimagem1,.textoimagem2,.textoimagem3{
+        width: 100%;
+    }
+    #revert{
+        flex-direction: column-reverse;   
+    }
+  .jorge{
+    margin-top: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .produto{
+    margin-left: 70px;
+}
+
+.titulopubli1, .titulopubli2{
+    margin-top: 45px;
+}
+
+.textopubli1, .textopubli2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1, .imagem2, .imagem3{
+    margin-top: 45px;
+
+}
+  .maome{
+    position: relative;
+    left: 0px;
+}
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+
+    
+/*FOOTER*/
+#caixa3{
+    flex-direction: column;
+    height: 70vh;
+}
+.caixa{
+    width: 100%;
+    
+}
+.caixa2{
+    width: 100%;
+    height: 250px;
+}
+
+
     .nav-bar {
         padding-right: 30px ;
     }
@@ -142,5 +684,35 @@ header.scrolled{
 
 /*dispositivos móveis*/
 @media screen and (max-width: 480px) {
+    .profissional1,.profissional2,.profissional3 {
+        width: 220px;
+    }
+
+    .imagem2{
+        width: 100%;
+    }
+    .tituloprof{
+        width: 300px;
+        font-size: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .jorge{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+
+    .produto{
+        margin-top: 125px;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px; 
+        
+        
+    }
     
 }
