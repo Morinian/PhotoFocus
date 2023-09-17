@@ -228,13 +228,21 @@ main{
 .textoimagem1{
     width: 550px;
     height: 45vh;
-    background-color: white;
-}
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textoimagem1 h3,.textoimagem2   h3,.textoimagem3 h3{
+    color: #fff;
+}
 .textoimagem2{
     width: 550px;
     height: 45vh;
-    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem2{
@@ -252,7 +260,10 @@ main{
 .textoimagem3{
     width: 550px;
     height: 45vh;
-    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .camada5{
