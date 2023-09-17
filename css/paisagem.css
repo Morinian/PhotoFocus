@@ -165,7 +165,7 @@ main{
 
 .maome{
     height: 650px;
-    width: 500px;
+    width: 550px;
     /*border: blue solid 2px;*/
     
     display: flex;
@@ -177,10 +177,6 @@ main{
     
 }
 
-.titulopubli1{
-    color: #fff;
-    font-size: 50px;     
-}
 
 .textopubli1{
     background-color: #131433;
@@ -188,30 +184,31 @@ main{
     width: 100%;
     z-index: 1;
     border-radius: 30px;
-    text-align: center;
+    text-align: justify;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-size: 20px;
 }
-
-.titulopubli2{
-    color: #fff;
-    font-size: 50px;       
+.textopubli1 p{
+    margin: 40px;
 }
-
+.textopubli2 p{
+    margin: 40px;
+}
 .textopubli2{
     background-color: #131433;
     height: 300px;
     width: 100%;
     z-index: 1;
     border-radius: 30px;
-    text-align: center;
+    text-align: justify;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
     
 }
 
