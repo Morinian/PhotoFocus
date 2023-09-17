@@ -140,7 +140,7 @@ main{
     background-color: darkgrey;
     border-radius: 25px;
 
-    margin-right: 50px;
+    margin-right: 50px; 
 }
 
 .maome{
@@ -163,12 +163,16 @@ main{
 }
 
 .textopubli1{
-    background-color: blueviolet;
+    background-color: #131433;
     height: 300px;
     width: 100%;
     z-index: 1;
     border-radius: 30px;
     text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -178,19 +182,23 @@ main{
 }
 
 .textopubli2{
-    background-color: blueviolet;
+    background-color: #131433;
     height: 300px;
     width: 100%;
     z-index: 1;
     border-radius: 30px;
     text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .maisuma{
     width: 100%;
     height: auto;
-    background-color: lightsalmon;
+    background-color: #1b1b1b;
 
     display: flex;
     flex-direction: row;
@@ -214,43 +222,43 @@ main{
 .imagem1{
     width: 320px;
     height: 45vh;
-    background-color: indianred;
+    background-color: white;
 }
 
 .textoimagem1{
     width: 550px;
     height: 45vh;
-    background-color: chartreuse;
+    background-color: white;
 }
 
 .textoimagem2{
     width: 550px;
     height: 45vh;
-    background-color: rgb(21, 158, 179);
+    background-color: white;
 }
 
 .imagem2{
     width: 320px;
     height: 45vh;
-    background-color: rgb(233, 6, 6);
+    background-color: white;
 }
 
 .imagem3{
     width: 320px;
     height: 45vh;
-    background-color: rgb(34, 15, 122); 
+    background-color: white; 
 }
 
 .textoimagem3{
     width: 550px;
     height: 45vh;
-    background-color: rgb(206, 246, 6);
+    background-color: white;
 }
 
 .camada5{
     width: 100%;
     height: auto;
-    background-color: burlywood;
+    background-color: #141414;
 
     display: flex;
     justify-content: center;
@@ -264,7 +272,7 @@ main{
     
     width:  450px;
     height: 70vh;
-    background-color: blue;
+    background-color: white;
     
     margin-top: 10px;
 }
@@ -273,14 +281,14 @@ main{
     margin-top: 10px;
     width: 550px;
     height: 70vh;
-    background-color: aqua;
+    background-color: darkgray;
 }
 
 .imagem4{
 
     width: 100%;
     height: 50%;
-    background-color: rgb(255, 0, 217);
+    background-color: white;
 
 }
 
@@ -520,6 +528,26 @@ img{
     justify-content: center;
     align-items: center;
   }
+
+  .produto{
+    margin-left: 70px;
+}
+
+.titulopubli1, .titulopubli2{
+    margin-top: 45px;
+}
+
+.textopubli1, .textopubli2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1, .imagem2, .imagem3{
+    margin-top: 45px;
+
+}
   .maome{
     position: relative;
     left: 0px;
@@ -541,6 +569,8 @@ img{
     width: 100%;
     height: 250px;
 }
+
+
     .nav-bar {
         padding-right: 30px ;
     }
@@ -585,5 +615,21 @@ img{
 
 /*dispositivos móveis*/
 @media screen and (max-width: 480px) {
+    
+    .jorge{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+
+    .produto{
+        margin-top: 125px;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px; 
+        
+        
+    }
     
 }
