@@ -256,7 +256,9 @@ main{
     height: 45vh;
     background-color: white; 
 }
-
+.profissionais img{
+    width: 200px;
+}
 .textoimagem3{
     width: 550px;
     height: 45vh;
@@ -379,6 +381,7 @@ main{
     justify-content: center;
     flex-direction: row;
 
+    margin-bottom: 100px;
     gap: 10px;
 }
 .botao{
