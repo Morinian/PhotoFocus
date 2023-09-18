@@ -635,6 +635,11 @@ img{
     left: 0px;
 }
 }
+@media screen and (max-width: 600px) {
+    .jorge{
+        margin-top: 500px;
+    }
+}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
