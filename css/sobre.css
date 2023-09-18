@@ -32,35 +32,6 @@ header.scrolled{
     
     
 }
-
-.elemento1{
-background-image: url(../imgs/principal/slide3.jpeg);
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 1140px;
-height: 700px;
-}
-
-.slogam{
-    text-align:center ;
-    
-}
-
-
-.elemento2{
-    background-color: #131433;
-    border-radius:50px;
-    -moz-border-radius:50px;
-    -webkit-border-radius:50px;
-    width: 400px;
-    height: 250px;
-    margin-left: 70px;
-    display: block; 
-    margin-top: 90px;
-    z-index: 10;
-   
-}
 .imgback{
     height: 750px;
     width: 100%;
