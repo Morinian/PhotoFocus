@@ -408,6 +408,7 @@ header.scrolled{
 }
 #vis1,#vis2{
     width: 400px;
+    height: 250px;
     background-color: #131433;
     color: #fff;
     border-radius:  20px ;
