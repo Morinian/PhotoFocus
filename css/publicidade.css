@@ -116,7 +116,7 @@ main{
     background-position: 80%;
 }
 
-.Threeimagens{
+#Threeimagens{
     width: 100%;
     height: auto;
 
@@ -178,7 +178,7 @@ main{
     margin-right: 50px; 
 }
 
-.maome{
+#maome{
     height: 650px;
     width: 500px;
     /*border: blue solid 2px;*/
@@ -291,7 +291,7 @@ main{
     background-image: url(../imgs/Publicidade/exemplo2.jpg);
     background-size: cover;
 }
-.profissionais img{
+#profissionais img{
     width: 200px;
 }
 .textoimagem3{
@@ -316,7 +316,7 @@ main{
     padding-bottom: 50px;
 }
 
-.quintaimagem{
+#quintaimagem{
     
     width:  450px;
     height: 70vh;
@@ -327,7 +327,7 @@ main{
     margin-top: 10px;
 }
 
-.caixa1{
+#caixa1{
     margin-top: 10px;
     width: 550px;
     height: 70vh;
@@ -352,7 +352,7 @@ main{
     align-items:center;  
 }
 
-.tituloprof{
+#tituloprof{
     position: absolute;
     z-index: 3;
     width: 350px;
@@ -362,7 +362,7 @@ main{
     font-size: 50px;
 }
 
-.profissionais{
+#profissionais{
     height: auto;
     width: 85%;
     background-color: #141433a7;
@@ -562,7 +562,7 @@ img{
 }
 /* telas pequenas, laptops */
 @media screen and (max-width:1139px){
-    .maome{
+    #maome{
         left: 30px;
     }
 }
@@ -644,7 +644,7 @@ img{
     margin-top: 45px;
 
 }
-  .maome{
+  #maome{
     position: relative;
     left: 0px;
 }
@@ -725,7 +725,7 @@ img{
     .imagem2{
         width: 100%;
     }
-    .tituloprof{
+    #tituloprof{
         width: 300px;
         font-size: 30px;
 
