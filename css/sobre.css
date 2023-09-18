@@ -11,8 +11,6 @@ body{
 header {
     width: 100%;
     position: fixed;
-    background-image: url(../imgs/principal/slide2.jpg);
-
 
     height: 200px;
     transition: 1s all;
@@ -21,16 +19,6 @@ header {
 header.scrolled{
     height: 80px;
     background-color: #141414;
-    
-}
-.img1{
-    height: 750px;
-    width: 100%;
-    background-image: url(../imgs/principal/slide2.jpg);
-    background-size: 100% 80%;
-    background-repeat: no-repeat;
-    
-    
 }
 .imgback{
     height: 750px;
