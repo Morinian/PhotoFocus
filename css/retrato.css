@@ -31,6 +31,20 @@ header.scrolled{
 .nav-bar.scrolled{
     height: 100%;
 }
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+    transform: translateX(-100%);
+    overflow: hidden;
+    
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1.5s;
+    transform: translateX(0);
+}
 
 .logo {
     display: flex;

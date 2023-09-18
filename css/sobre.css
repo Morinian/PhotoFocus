@@ -37,6 +37,20 @@ header.scrolled{
 .nav-bar.scrolled{
     height: 100%;
 }
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+    transform: translateX(-100%);
+    overflow: hidden;
+    
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1.5s;
+    transform: translateX(0);
+}
 
 .logo {
     display: flex;
@@ -122,6 +136,7 @@ header.scrolled{
     flex-direction: column;
     padding: 40px;
     margin-top: 180px;
+    overflow: visible;
 }
 #vis1 h2,#vis2 h2{
     font-weight: 300;
@@ -147,7 +162,7 @@ header.scrolled{
     padding: 40px;
     margin-top: 70px;
   }
-  .wrapper {
+  #wrapper {
       width: 100%;
       height: auto;
       background-color: #131433e1;
@@ -370,7 +385,7 @@ img{
     align-items: center;
     }
     
-    .slogan{
+    #slogan{
         background-color: #fff;
         width: 70%;
         height: 150px;
@@ -380,7 +395,7 @@ img{
         border-radius: 30px 0px 30px 0px;
     }
     
-    .slogan h1{
+    #slogan h1{
         font-size: 40px;
         color: #141414;
     
@@ -395,7 +410,7 @@ img{
         padding: 50px;
     }
     
-    .sobre1, .sobre2{
+    #sobre1, #sobre2{
         width: 55%;
         height: 350px;
         background-color: #131433e1;
@@ -415,13 +430,13 @@ img{
         justify-content: flex-end;
     }
     
-    .sobre1 h1,.sobre2 h1{
+    #sobre1 h1,#sobre2 h1{
         font-weight: 300;
         font-size: 50px;
         
     }
     
-    .sobre1 p,.sobre2 p{
+    #sobre1 p,#sobre2 p{
         
         font-size: 25px;
         margin-top: 20px;
@@ -481,7 +496,7 @@ img{
 
 
     /*SOBRE*/
-    .sobre1 , .sobre2 {
+    #sobre1 , #sobre2 {
         width: 90%;
         height: 400px;
     }
@@ -551,7 +566,7 @@ img{
         .slogan{
             width: 80%;
         }
-        .sobre1 , .sobre2 {
+        #sobre1 , #sobre2 {
             width: 100%;
             height: 400px;
         }
