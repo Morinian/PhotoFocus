@@ -474,3 +474,75 @@ img{
 @media screen and (max-width: 480px) {
     
 }
+
+.frase{
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.slogan{
+    background-color: #fff;
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.slogan h1{
+    font-size: 40px;
+    color: #141414;
+
+}
+
+.elemento1{
+    width: 100%;
+    height:auto;
+    background-image: url(../imgs/Sobre/sobre_nós_centro.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.sobre1, .sobre2{
+    width: 40%;
+    height: 350px;
+    background-color: #131433e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    color: #fff;
+    padding: 30px;
+    border-radius: 30px 0px 30px 0px;
+
+
+
+}
+
+.elemento3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sobre1 h1,.sobre2 h1{
+    font-weight: 300;
+    font-size: 50px;
+    
+}
+
+.sobre1 p,.sobre2 p{
+    
+    font-size: 25px;
+    margin-top: 20px;
+    display: flex;
+
+    
+}
+
