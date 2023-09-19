@@ -182,7 +182,7 @@ header.scrolled{
     margin:20px 0;
     width: 300px;
     opacity: 0;
-    font-size: 20px;
+    font-size: 25px;
     animation:showcontent 1s ease-in-out 0.3s 1 forwards
 }
 .item button{
@@ -283,7 +283,7 @@ header.scrolled{
     margin-top: 20px;
     text-align: justify;
     color: #FFFF;
-    font-size: 20px;
+    font-size: 25px;
  }
 #item-0 h1{
     font-size: 40px;
@@ -402,10 +402,10 @@ header.scrolled{
     color: #fff;
     margin: 50px 70px 50px 70px;
 
-    font-size: 25px;
+    font-size: 30px;
 }
 #quadrado h1{
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 40px;
     color: #fff;
 }
@@ -442,8 +442,8 @@ header.scrolled{
 }
 #vis1 p,#vis2 p{
     font-weight: 300;
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 25px;
+    margin-top: 15px;
     text-align: justify ;
 }
 #visao svg{
@@ -460,6 +460,8 @@ header.scrolled{
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 60px;
+
+
 }
 #cart1,#cart2,#cart3,#cart4{
     width: 400px;
@@ -628,6 +630,8 @@ footer{
     background-color: rgba(30,30,30,255);
     display: flex;
     flex-direction: column;
+
+    font-size: 20px;
 
 }
 

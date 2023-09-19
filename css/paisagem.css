@@ -203,7 +203,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 22px;
 }
 .textopubli1 p{
     margin: 40px;
@@ -222,7 +222,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 22px;
     
 }
 
@@ -269,7 +269,7 @@ main{
 }
 .textoimagem1 p,.textoimagem2   p,.textoimagem3 p{
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
 }
 .textoimagem2{
     text-align: justify;
